@@ -3,10 +3,10 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "start",
-			"label": "npm: start",
-			"detail": "npx parcel index.html",
-			"isBackground": true
+			"script": "watch",
+			"group": "build",
+			"label": "npm: watch",
+			"detail": "rollup --watch --config rollup.config.dev.mjs"
 		},
 		{
 			"type": "npm",
@@ -20,7 +20,7 @@
 			"script": "build",
 			"group": "build",
 			"label": "npm: build",
-			"detail": "npx parcel build index.html --public-url ./ --dist-dir docs"
+			"detail": "rollup --config rollup.config.dist.mjs"
 		}
 	]
 }

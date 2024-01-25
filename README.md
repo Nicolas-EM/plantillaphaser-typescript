@@ -23,10 +23,10 @@ Cada vez que queramos usarlo, tenemos que arrancar el servidor de desarrollo que
 Para arrancar el servidor de desarrollo:
 
 ```
-npm start
+npm run watch
 ```
 
-Con esto, solo tenemos que programar y guardar los archivos, Parcel se encargará del resto.
+Con esto, solo tenemos que programar y guardar los archivos, Rollup se encargará del resto.
 
 ## Distribución
 
